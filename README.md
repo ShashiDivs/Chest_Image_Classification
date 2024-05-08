@@ -61,3 +61,21 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/ShashiDivs/ml_experiment.mlflow
 export MLFLOW_TRACKING_USERNAME=ShashiDivs
 export MLFLOW_TRACKING_PASSWORD=c1536418a5e6c7ebc0bc16afcbaef85aa6785cae
 ```bash# Chest_Classification_Images
+
+
+
+## Original One
+```bash
+MLFLOW_TRACKING_URI=https://dagshub.com/ShashiDivs/chest_image_classification.mlflow \
+MLFLOW_TRACKING_USERNAME=ShashiDivs \
+MLFLOW_TRACKING_PASSWORD=c1536418a5e6c7ebc0bc16afcbaef85aa6785cae \
+python script.py
+```
+
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/ShashiDivs/chest_image_classification.mlflow
+export MLFLOW_TRACKING_USERNAME=ShashiDivs
+export MLFLOW_TRACKING_PASSWORD=c1536418a5e6c7ebc0bc16afcbaef85aa6785cae
+```bash# Chest_Classification_Images
+
+
