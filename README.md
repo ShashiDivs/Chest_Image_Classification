@@ -79,3 +79,8 @@ export MLFLOW_TRACKING_PASSWORD=c1536418a5e6c7ebc0bc16afcbaef85aa6785cae
 ```bash# Chest_Classification_Images
 
 
+### DVC cmd
+
+1. dvc init
+2. dvc repro
+3. dvc dag
