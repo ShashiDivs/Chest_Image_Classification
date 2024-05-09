@@ -6,6 +6,8 @@ import tensorflow as tf
 import time
 from cnnClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
+import shutil
+
 
 class Training:
     def __init__(self, config: TrainingConfig):
@@ -65,6 +67,13 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
+        destination = Path("model")
+        destination.mkdir(parents=True, exist_ok=True)  # Ensures the target folder exists
+        if path.is_file():
+            shutil.copy(path, destination / path.name)
+            # If the model is saved as a directory, copy the entire directory
+        elif path.is_dir():
+            shutil.copytree(path, destination / path.name, dirs_exist_ok=True)
 
 
 
