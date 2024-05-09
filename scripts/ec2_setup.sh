@@ -16,6 +16,7 @@ newgrp docker
 
 sudo apt install awscli -y
 
+## this worked for me sudo snap install aws-cli --classic
 
 
 ## AWS configuration

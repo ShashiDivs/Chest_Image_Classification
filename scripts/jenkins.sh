@@ -45,3 +45,7 @@ aws configure
 ## For getting the admin password for jenkins
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+
+## http://54.224.234.145:8080/
