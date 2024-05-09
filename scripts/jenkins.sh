@@ -49,3 +49,4 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 ## http://54.224.234.145:8080/
+## Token  1163ed665d1e14f15411e72d7a5041c624
