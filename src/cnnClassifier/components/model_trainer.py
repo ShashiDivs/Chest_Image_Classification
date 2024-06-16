@@ -7,6 +7,7 @@ import time
 from cnnClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
 import shutil
+import sys
 
 
 class Training:
